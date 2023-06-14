@@ -1,8 +1,7 @@
-from Car import Car
+from abc import ABC
 
 
 # Engine class
-class Engine(Car):
+class Engine(ABC):
     def needs_service(self):
-        super().needs_service()
-        return self.needs_service()
+        pass
