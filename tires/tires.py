@@ -2,6 +2,6 @@ from abc import ABC
 
 
 # Engine class
-class Tire(ABC):
+class Tires(ABC):
     def needs_service(self):
         pass
